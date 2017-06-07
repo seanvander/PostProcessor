@@ -40,6 +40,8 @@ namespace PostProcessor
                 }
                 else
                 {
+                    // Add validation logic here to ensure we are dealing with a number between 1 and 9...
+                    
                     // Get the number entered at the console
                     int value = int.Parse(keyInfo.KeyChar.ToString());
 
